@@ -1,0 +1,141 @@
+body{
+  text-align: center;
+  /* background-image: url("Blue-background.jpg"); */
+  background-color: rgb(42, 144, 194);
+}
+
+h1{
+  /* font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  color: rgb(208, 214, 223);
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+hr{
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.movieInput{
+  height: 70px;
+  width: 30%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  color: rgb(208, 214, 223);
+  padding: 15px;
+  background: transparent;
+  outline: none;
+}
+
+.submit{
+  height: 50px;
+  width: 15%;
+  font-size: 15px;
+  color: white;
+  padding:0.7em 1.4em;
+  border-radius:0.15em;
+  border: none;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Raleway', sans-serif;
+  text-transform:uppercase;
+  font-weight:400;
+  background-color:#3369ff;
+  box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+  text-align:center;
+  position:relative;
+}
+
+.submit:active{
+  top:0.1em;
+}
+
+#wrapper{
+  text-align: center;
+}
+
+.rec{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.rec p{
+  font-family: 'Raleway', sans-serif;;
+  color: white;
+}
+
+.movie{
+  width: 28%;
+  height: 220px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 950px) {
+    .rec{
+      width: 80%;
+    }
+    .movieInput{
+      width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rec{
+      width: 85%;
+    }
+    .movieInput{
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .rec{
+      width: 100%;
+    }
+    .movie{
+      width: 45%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .movieInput{
+      width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .movie{
+      width: 60%;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .movieInput{
+      width: 80%;
+    }
+}
